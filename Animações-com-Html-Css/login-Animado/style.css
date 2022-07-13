@@ -1,0 +1,47 @@
+@keyframes animacao {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+body h1 {
+    padding: 20px;
+}
+main {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+#primeiro-tipo-01 .login {
+    margin: 50px;
+    animation: animacao 2s linear infinite;
+    border-radius: 50%;
+    position: absolute;
+    border-top: 9px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(142, 2, 2);
+    width: 200px;
+    height: 200px;
+}
+#primeiro-tipo-01 #log-01 {
+    margin-top: 49px;
+}
+#primeiro-tipo-01 #log-02 {
+    margin-top: 46.5px;
+}
+#primeiro-tipo-01 #log-03 {
+    margin-top: 42.5px;
+}

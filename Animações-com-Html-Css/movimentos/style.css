@@ -1,0 +1,70 @@
+@keyframes funcao {
+    0% {background-color: blue; width: 500px; }
+
+    25% {
+        background-color: #1b1bc0; width: 400px; transform: translatey(390px) translatex(650px);
+    }
+
+    50% {
+        background-color: yellow; width: 300px; transform: translatey(400px);
+    }
+
+    75% {
+        background-color: #f84600; width: 200px; transform: translatex(600px);
+    }
+
+    100% {
+        background-color: red; width: 100px; transform: translatey(0px);
+        border-radius: 50%;
+    }
+}
+@keyframes funcao2 {
+    0% {background-color: blue; width: 500px; }
+
+    25% {
+        background-color: #1b1bc0; width: 400px; transform: translatey(-100px) translatex(550px);
+    }
+
+    50% {
+        background-color: yellow; width: 300px; transform: translatey(100px);
+    }
+
+    75% {
+        background-color: #f84600; width: 200px; transform: translatex(500px);
+    }
+
+    100% {
+        background-color: red;
+        width: 100px;
+        transform: translatey(0px);
+        border-radius: 50%;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div#animacao {
+    animation-name: funcao;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    margin: 100px;
+    width: 1000px;
+    height: 100px;
+}
+
+div#animacao-02 {
+    animation-name: funcao2;
+    animation-duration: 5s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    background-color: blue;
+    margin: 100px;
+    width: 1000px;
+    height: 100px;
+}

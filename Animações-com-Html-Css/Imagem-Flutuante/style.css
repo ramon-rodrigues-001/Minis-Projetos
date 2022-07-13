@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+
+main {
+    color: white;
+    text-align: center;
+}
+main h1 {
+    padding: 10px;
+}
+main a {
+    text-decoration: none;
+    padding: 5px;
+}
+main a:hover {
+    text-decoration: underline;
+}
+
+
+
+main img {
+    width: 300px;
+    padding: 10px;
+    animation: animacao 5s infinite;
+}
+
+@keyframes animacao {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
